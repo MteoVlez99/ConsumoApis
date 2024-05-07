@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador del clima</title>
+    <link rel="stylesheet" href="./apiClima.css">
+    
+</head>
+<body>
+    <section class="clima-contenedor">
+        <h1>Buscador del clima</h1>
+        <div class="resultado">
+            <p></p>
+            <!--  -->
+        </div>
+        <form action="" method="POST" class="conseguir el clima">
+            <input type="text" name="ciudad" id="ciudad" placeholder="Ingrese El Nombre De Una Ciudad...">
+            <select name="" id="pais">
+                <option disabled selected value="">Seleccione Un Pais</option>
+                <option value="AR">Argentina</option>
+                <option value="CO">Colombia</option>
+                <option value="CR">Costa Rica</option>
+                <option value="ES">España</option>
+                <option value="US">Estados Unidos</option>
+                <option value="MX">México</option>
+                <option value="PE">Perú</option>
+            </select>
+            <input type="submit" name="" id="" value="Buscar Temperatura">
+        </form>
+    </section>
+    
+    <script src="./apiClima.js" defer></script>
+</body>
+</html>
